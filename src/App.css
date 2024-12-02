@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.navbar {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 1.2rem 1.4rem;
+}
+
+.cards {
+  width: 1080px;
+  display: grid;
+  grid-template-columns: repeat(5, 180px);
+  gap: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardImg img {
+  width: 100%;
+  height: 285px;
+  border-radius: 0.6rem;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.des {
+  width: 1080px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+
+.des img {
+  width: 500px;
+  height: 500px;
+}
+
+.des p {
+  font-size: 1.4rem;
+  color: #757272;
+}
+
